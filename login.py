@@ -7,5 +7,5 @@ def login():
   if cfp==pwd:
     print("Thank you.")
   else:
-    print(PASSWORDS DO NOT MATCH)
+    print("PASSWORDS DO NOT MATCH")
     login()
