@@ -3,7 +3,7 @@ def login():
   global cfp
   usrname=input("Please input your username: ")
   pwd=input("Please input your password: ")
-  cfp=inpuut("Reenter your password: ")
+  cfp=input("Reenter your password: ")
   if cfp==pwd:
     print("Thank you.")
   else:
